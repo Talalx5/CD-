@@ -69,10 +69,10 @@ with open(r"C:\Users\Talal\Desktop\CD\Lab-1-master\myText.txt") as t:
 
 print("Keywords: ",detect_keywords(text))
 print("Operators: ",detect_operators(text))
+print("Special Characters: ", detect_SC(text))
 print("Delimiters: ",detect_delimiters(text))
 print("Identifiers: ",detect_identifiers(text))
 print("Numbers: ",detect_num(text))
-print("Special Characters: ", detect_SC(text))
 
 
 # In[ ]:
